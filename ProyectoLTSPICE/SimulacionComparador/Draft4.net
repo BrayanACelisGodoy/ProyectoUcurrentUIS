@@ -1,0 +1,13 @@
+* C:\Users\Dortiso\Downloads\Uis\Materias\Diseño\Proyecto\ProyectoLTSPICE\SimulacionComparador\Draft4.asc
+V1 V+ 0 3
+V2 0 V- 3
+R1 N002 0 220
+V3 N004 0 PULSE(0 500m 0 1n 1n 2m 4m)
+V4 N003 0 450m
+XU1 N004 N001 V+ 0 N002 LM358
+R2 N002 N001 100k
+R3 N001 N003 1k
+.tran 30M
+.lib Sborka.lib
+.backanno
+.end
