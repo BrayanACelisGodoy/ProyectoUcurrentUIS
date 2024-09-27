@@ -1,0 +1,20 @@
+* C:\Users\USUARIO\Downloads\Diseño\ProyectoGitHub\Proyecto\ProyectoLTSPICE\SimulacionMedicionCorriente\Draft3.asc
+XU1 N004 N006 V+ V- N005 V+ MAX4239
+XU2 N005 N007 V+ V- N003 V+ MAX4239
+R1 Vout N007 9k
+R2 0 N007 1k
+R3 N005 N006 9k
+R4 0 N006 1k
+R5 Vout N003 50k
+V1 V+ 0 3
+R8 N001 0 10
+I1 0 N001 PULSE(300u 10m 0 1n 1n 20m 40m)
+R9 N001 N004 270
+V2 0 V- 3
+R6 N001 N002 10m
+XU3 N002 N003 0 IRLZ44N
+.tran 0 100m 0 1m
+.lib ..\sym\ZZZ\MOS\IRF\LIB\irlz44n.spi
+.lib MAX4239.lib
+.backanno
+.end
