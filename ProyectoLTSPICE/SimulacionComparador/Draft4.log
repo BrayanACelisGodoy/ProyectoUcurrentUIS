@@ -1,9 +1,21 @@
-Circuit: * C:\Users\USUARIO\Downloads\Diseño\ProyectoGitHub\Proyecto\ProyectoLTSPICE\SimulacionComparador\Draft4.asc
-
-WARNING: Less than two connections to node nc_01.  This node is used by r§ma.
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\Dortiso\Downloads\Uis\Materias\Diseño\Proyecto\ProyectoLTSPICE\SimulacionComparador\Draft4.asc
+Start Time: Fri Oct  4 21:54:14 2024
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
 WARNING: Less than two connections to node u5:dp.  This node is used by a:u5:ddel.
-WARNING: Less than two connections to node nc_03.  This node is used by r:u5:out2:out.
-Ignoring empty pin current: Ix(u5:vcc)
+WARNING: Less than two connections to node nc_02.  This node is used by r:u5:out2:out.
+Instance "m:u4:45": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:50": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:51": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:47": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:45": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:50": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:51": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:47": Length shorter than recommended for a level 1 MOSFET.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -28,70 +40,120 @@ Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
 Source Step = 33.3333%
 Source Step = 63.6364%
-Source Step = 93.9394%
+Source Step = 76.0417%
+vernier = 0.00390625
+Source Step = 76.021%
+Source Step = 76.0505%
+Source Step = 76.0801%
+Source Step = 76.1097%
+Source Step = 76.1393%
+vernier = 0.00146484
+Source Step = 76.1778%
+Source Step = 76.2222%
+Source Step = 76.2666%
+Source Step = 76.311%
+Source Step = 76.3554%
+vernier = 0.00219727
+Source Step = 76.4108%
+Source Step = 76.4774%
+Source Step = 76.544%
+Source Step = 76.6106%
+Source Step = 76.6772%
+vernier = 0.0032959
+Source Step = 76.7571%
+Source Step = 76.8569%
+Source Step = 76.9568%
+Source Step = 77.0567%
+Source Step = 77.1566%
+vernier = 0.00494385
+Source Step = 77.2714%
+Source Step = 77.4212%
+Source Step = 77.5711%
+Source Step = 77.7209%
+Source Step = 77.8707%
+vernier = 0.00741577
+Source Step = 78.0355%
+Source Step = 78.2602%
+Source Step = 78.4849%
+Source Step = 78.7096%
+Source Step = 78.9344%
+vernier = 0.0111237
+Source Step = 79.1703%
+Source Step = 79.5074%
+Source Step = 79.8445%
+Source Step = 80.1816%
+Source Step = 80.5186%
+Source Step = 80.8557%
+vernier = 0.0166855
+Source Step = 81.3613%
+Source Step = 81.867%
+Source Step = 82.3726%
+Source Step = 82.8782%
+Source Step = 83.3838%
+vernier = 0.0250282
+Source Step = 84.117%
+Source Step = 84.8754%
+Source Step = 85.6338%
+Source Step = 86.3923%
+Source Step = 87.1507%
+vernier = 0.0375423
+Source Step = 88.2125%
+Source Step = 89.3502%
+Source Step = 90.4878%
+Source Step = 91.6254%
+Source Step = 92.7631%
+vernier = 0.0563135
+Source Step = 94.2989%
+Source Step = 96.0054%
+Source Step = 97.7119%
+Source Step = 99.4183%
 Source stepping succeeded in finding the operating point.
 
-Semiconductor Device Operating Points:
-                        --- Diodes ---
-Name:    d:u1:ip     d:u1:in     d:u1:1      d:u1:2      d:u1:op
-Model:    u1:di       u1:di      u1:dn1      u1:dn1       u1:do
-Id:      1.70e-12    3.11e-12    1.00e+00    1.00e+00    2.96e-12
-Vd:      1.70e+00    3.10e+00    7.15e-01    7.15e-01    2.96e+00
-Req:     1.00e-12    1.00e-12    2.59e-02    2.59e-02    1.00e-12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u1:on     d:u1:gp     d:u1:gn     d:u2:ip     d:u2:in
-Model:    u1:do       u1:dg       u1:dg       u2:di       u2:di
-Id:      3.04e-12    8.56e-12    8.65e-12    1.66e-12    3.14e-12
-Vd:      3.04e+00    8.55e+00    8.65e+00    1.66e+00    3.14e+00
-Req:     1.00e-12    1.00e-12    1.00e-12    1.00e-12    1.00e-12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u2:1      d:u2:2      d:u2:op     d:u2:on     d:u2:gp
-Model:   u2:dn1      u2:dn1       u2:do       u2:do       u2:dg
-Id:      1.00e+00    1.00e+00    6.03e-13    5.40e-12    5.90e-12
-Vd:      7.15e-01    7.15e-01    6.02e-01    5.40e+00    5.90e+00
-Req:     2.59e-02    2.59e-02    1.00e-12    1.00e-12    1.00e-12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u2:gn     d:u3:21     d:u3:22     d:u3:5      d:u3:6
-Model:    u2:dg      u3:esd      u3:esd       u3:x1       u3:x2
-Id:      1.13e-11   -6.68e-13   -2.34e-12   -1.50e-06    5.74e-01
-Vd:      1.13e+01   -6.67e-01   -2.33e+00   -3.00e+00   -2.61e-03
-Req:     1.00e-12    1.00e-12    1.00e-12    5.00e-07    1.00e+03
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u3:1      d:u3:2      d:u3:3      d:u4:21     d:u4:22
-Model:    u3:iq     u3:20ohm     u3:45ma     u4:esd      u4:esd
-Id:      2.24e-04    2.61e-11   -2.61e-11    4.11e-06   -3.01e-12
-Vd:      3.00e+00    7.84e-10   -2.61e-10    9.07e-03   -3.01e+00
-Req:     5.00e-04    1.00e-01    1.00e-01    1.00e-01    1.00e-12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u4:5      d:u4:6      d:u4:1      d:u4:2      d:u4:3
-Model:    u4:x1       u4:x2       u4:iq     u4:20ohm     u4:45ma
-Id:     -1.50e-06    1.88e+00    2.24e-04    4.52e-21   -2.71e-21
-Vd:     -3.00e+00    1.24e-04    3.00e+00    1.36e-19   -2.71e-20
-Req:     5.00e-07    1.00e+03    5.00e-04    1.00e-01    1.00e-01
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-
-
-Date: Fri Oct  4 16:11:41 2024
-Total elapsed time: 0.801 seconds.
-
-tnom = 27
-temp = 27
-method = trap
-totiter = 2170
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 229
-fillins = 267
-solver = Normal
-Avg thread counts: 1.1/0.0/2.0/1.1
-Matrix Compiler1: 14.63 KB object code size
-Matrix Compiler2: 20.09 KB object code size  4.0/5.9/[2.5]
+Ignoring empty pin current: Ix(u5:vc+)
+Ignoring empty pin current: Ix(u5:vc-)
+Ignoring empty pin current: Ix(u5:vout+)
+Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u3:vc+)
+Ignoring empty pin current: Ix(u3:vc-)
+Ignoring empty pin current: Ix(u3:vout+)
+Ignoring empty pin current: Ix(u3:vout-)
+Ignoring empty pin current: Ix(u1:vc+)
+Ignoring empty pin current: Ix(u1:vc-)
+Ignoring empty pin current: Ix(u1:vout+)
+Ignoring empty pin current: Ix(u1:vout-)
+Ignoring empty pin current: Ix(u2:a)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u4:vc+)
+Ignoring empty pin current: Ix(u4:vc-)
+Ignoring empty pin current: Ix(u4:iout+)
+Ignoring empty pin current: Ix(u4:iout-)
+Ignoring empty pin current: Ix(u7:in)
+Ignoring empty pin current: Ix(u7:out)
+Ignoring empty pin current: Ix(u7:vcc)
+Ignoring empty pin current: Ix(u7:gnd)
+Ignoring empty pin current: Ix(u7:nout)
+Ignoring empty pin current: Ix(u5:vc+)
+Ignoring empty pin current: Ix(u5:vc-)
+Ignoring empty pin current: Ix(u5:vout+)
+Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u3:vc+)
+Ignoring empty pin current: Ix(u3:vc-)
+Ignoring empty pin current: Ix(u3:vout+)
+Ignoring empty pin current: Ix(u3:vout-)
+Ignoring empty pin current: Ix(u1:vc+)
+Ignoring empty pin current: Ix(u1:vc-)
+Ignoring empty pin current: Ix(u1:vout+)
+Ignoring empty pin current: Ix(u1:vout-)
+Ignoring empty pin current: Ix(u2:a)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u4:vc+)
+Ignoring empty pin current: Ix(u4:vc-)
+Ignoring empty pin current: Ix(u4:iout+)
+Ignoring empty pin current: Ix(u4:iout-)
+Ignoring empty pin current: Ix(u7:in)
+Ignoring empty pin current: Ix(u7:out)
+Ignoring empty pin current: Ix(u7:vcc)
+Ignoring empty pin current: Ix(u7:gnd)
+Ignoring empty pin current: Ix(u7:nout)
+Total elapsed time: 5.736 seconds.
 
