@@ -1,0 +1,38 @@
+* C:\Users\Dortiso\Downloads\Uis\Materias\Diseño\Proyecto\ProyectoLTSPICE\SimulacionComparador\SistemaComparador.asc
+XU1 N002 N004 V+ V- N003 V+ MAX4239
+XU2 N003 N005 V+ V- Vref V+ MAX4239
+R1 Vout N005 9k
+R2 0 N005 1k
+R3 N003 N004 9k
+R4 0 N004 1k
+R5 Vout Vref 50k
+V1 V+ 0 3
+R6 Vt N002 270
+V2 0 V- 3
+R§mA Vt N001 10m
+R§uA Vt 0 10
+XU5 P001 N007 Vsuperior Reset Vset NC_01 VCC 0 74HC74 VCC=3 SPEED=1.0 TRIPDT=1e-9
+V4 N007 0 PULSE(0 3 0 1n 1n 1m 2m)
+V5 N006 0 2.6
+V6 N008 0 2m
+XU4 Vref N006 V+ 0 Vsuperior 0 TLV3501
+XU3 N008 Vref V+ 0 Vinferior 0 TLV3501
+M1 N001 Vset 0 0 NMOS
+M2 N001 Vset 0 0 NMOS
+M3 N001 Vset 0 0 NMOS
+XU7 Vinferior Vset Reset NAND_2
+I3 0 Vt 20µ
+V3 P001 0 3
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Dortiso\AppData\Local\LTspice\lib\cmp\standard.mos
+.param V=3.3 I=20m
+.param R={V/I}
+.model NMOS NMOS (Vto=1.2 Kp=500 Rd=0.1 Rs=0.05 Rg=1 Vds=40 Ron=0.001)
+.tran 10m
+.lib 74HC.lib
+.lib DigitalLogic.lib
+.lib MAX4239.lib
+.lib Sborka.lib
+.backanno
+.end

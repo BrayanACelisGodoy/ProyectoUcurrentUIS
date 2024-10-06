@@ -1,0 +1,176 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\Users\Dortiso\Downloads\Uis\Materias\Diseño\Proyecto\ProyectoLTSPICE\SimulacionComparador\SistemaComparador.asc
+Start Time: Sun Oct  6 11:56:13 2024
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node u5:dp.  This node is used by a:u5:ddel.
+WARNING: Less than two connections to node nc_01.  This node is used by r:u5:out2:out.
+Instance "m:u4:45": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:50": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:51": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:47": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:45": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:50": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:51": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:47": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.995033
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 0.999816
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 79.5455%
+Source Step = 87.1212%
+Source Step = 94.697%
+Source Step = 99.4792%
+Source Step = 99.5472%
+Source Step = 99.5768%
+Source Step = 99.6064%
+Source Step = 99.636%
+Source Step = 99.6656%
+Source Step = 99.6952%
+Source Step = 99.7248%
+Source Step = 99.7544%
+Source Step = 99.784%
+Source Step = 99.8136%
+Source Step = 99.8432%
+Source Step = 99.8728%
+Source Step = 99.9023%
+Source Step = 99.9319%
+Source Step = 99.9615%
+Source Step = 99.9911%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u5:vc+)
+Ignoring empty pin current: Ix(u5:vc-)
+Ignoring empty pin current: Ix(u5:vout+)
+Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u3:vc+)
+Ignoring empty pin current: Ix(u3:vc-)
+Ignoring empty pin current: Ix(u3:vout+)
+Ignoring empty pin current: Ix(u3:vout-)
+Ignoring empty pin current: Ix(u1:vc+)
+Ignoring empty pin current: Ix(u1:vc-)
+Ignoring empty pin current: Ix(u1:vout+)
+Ignoring empty pin current: Ix(u1:vout-)
+Ignoring empty pin current: Ix(u2:a)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u4:vc+)
+Ignoring empty pin current: Ix(u4:vc-)
+Ignoring empty pin current: Ix(u4:iout+)
+Ignoring empty pin current: Ix(u4:iout-)
+Ignoring empty pin current: Ix(u7:in)
+Ignoring empty pin current: Ix(u7:out)
+Ignoring empty pin current: Ix(u7:vcc)
+Ignoring empty pin current: Ix(u7:gnd)
+Ignoring empty pin current: Ix(u7:nout)
+Ignoring empty pin current: Ix(u5:vc+)
+Ignoring empty pin current: Ix(u5:vc-)
+Ignoring empty pin current: Ix(u5:vout+)
+Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u3:vc+)
+Ignoring empty pin current: Ix(u3:vc-)
+Ignoring empty pin current: Ix(u3:vout+)
+Ignoring empty pin current: Ix(u3:vout-)
+Ignoring empty pin current: Ix(u1:vc+)
+Ignoring empty pin current: Ix(u1:vc-)
+Ignoring empty pin current: Ix(u1:vout+)
+Ignoring empty pin current: Ix(u1:vout-)
+Ignoring empty pin current: Ix(u2:a)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u4:vc+)
+Ignoring empty pin current: Ix(u4:vc-)
+Ignoring empty pin current: Ix(u4:iout+)
+Ignoring empty pin current: Ix(u4:iout-)
+Ignoring empty pin current: Ix(u7:in)
+Ignoring empty pin current: Ix(u7:out)
+Ignoring empty pin current: Ix(u7:vcc)
+Ignoring empty pin current: Ix(u7:gnd)
+Ignoring empty pin current: Ix(u7:nout)
+Total elapsed time: 22.285 seconds.
+
