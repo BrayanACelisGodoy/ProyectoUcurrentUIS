@@ -1,13 +1,13 @@
 LTspice 24.0.9 for Windows
-Circuit: * C:\Users\Dortiso\Downloads\Uis\Materias\Diseño\Proyecto\ProyectoLTSPICE\SimulacionComparador\Draft4.asc
-Start Time: Fri Oct  4 21:54:14 2024
+Circuit: * C:\Users\Dortiso\Downloads\Uis\Materias\Diseño\Proyecto\ProyectoLTSPICE\SimulacionComparador\SistemaComparador.asc
+Start Time: Sun Oct  6 11:56:13 2024
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
 method = modified trap
 WARNING: Less than two connections to node u5:dp.  This node is used by a:u5:ddel.
-WARNING: Less than two connections to node nc_02.  This node is used by r:u5:out2:out.
+WARNING: Less than two connections to node nc_01.  This node is used by r:u5:out2:out.
 Instance "m:u4:45": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:u4:50": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:u4:51": Length shorter than recommended for a level 1 MOSFET.
@@ -40,73 +40,90 @@ Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
 Source Step = 33.3333%
 Source Step = 63.6364%
-Source Step = 76.0417%
-vernier = 0.00390625
-Source Step = 76.021%
-Source Step = 76.0505%
-Source Step = 76.0801%
-Source Step = 76.1097%
-Source Step = 76.1393%
-vernier = 0.00146484
-Source Step = 76.1778%
-Source Step = 76.2222%
-Source Step = 76.2666%
-Source Step = 76.311%
-Source Step = 76.3554%
-vernier = 0.00219727
-Source Step = 76.4108%
-Source Step = 76.4774%
-Source Step = 76.544%
-Source Step = 76.6106%
-Source Step = 76.6772%
-vernier = 0.0032959
-Source Step = 76.7571%
-Source Step = 76.8569%
-Source Step = 76.9568%
-Source Step = 77.0567%
-Source Step = 77.1566%
-vernier = 0.00494385
-Source Step = 77.2714%
-Source Step = 77.4212%
-Source Step = 77.5711%
-Source Step = 77.7209%
-Source Step = 77.8707%
-vernier = 0.00741577
-Source Step = 78.0355%
-Source Step = 78.2602%
-Source Step = 78.4849%
-Source Step = 78.7096%
-Source Step = 78.9344%
-vernier = 0.0111237
-Source Step = 79.1703%
-Source Step = 79.5074%
-Source Step = 79.8445%
-Source Step = 80.1816%
-Source Step = 80.5186%
-Source Step = 80.8557%
-vernier = 0.0166855
-Source Step = 81.3613%
-Source Step = 81.867%
-Source Step = 82.3726%
-Source Step = 82.8782%
-Source Step = 83.3838%
-vernier = 0.0250282
-Source Step = 84.117%
-Source Step = 84.8754%
-Source Step = 85.6338%
-Source Step = 86.3923%
-Source Step = 87.1507%
-vernier = 0.0375423
-Source Step = 88.2125%
-Source Step = 89.3502%
-Source Step = 90.4878%
-Source Step = 91.6254%
-Source Step = 92.7631%
-vernier = 0.0563135
-Source Step = 94.2989%
-Source Step = 96.0054%
-Source Step = 97.7119%
-Source Step = 99.4183%
+Source Step = 79.5455%
+Source Step = 87.1212%
+Source Step = 94.697%
+Source Step = 99.4792%
+Source Step = 99.5472%
+Source Step = 99.5768%
+Source Step = 99.6064%
+Source Step = 99.636%
+Source Step = 99.6656%
+Source Step = 99.6952%
+Source Step = 99.7248%
+Source Step = 99.7544%
+Source Step = 99.784%
+Source Step = 99.8136%
+Source Step = 99.8432%
+Source Step = 99.8728%
+Source Step = 99.9023%
+Source Step = 99.9319%
+Source Step = 99.9615%
+Source Step = 99.9911%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
 Source stepping succeeded in finding the operating point.
 
 Ignoring empty pin current: Ix(u5:vc+)
@@ -155,5 +172,5 @@ Ignoring empty pin current: Ix(u7:out)
 Ignoring empty pin current: Ix(u7:vcc)
 Ignoring empty pin current: Ix(u7:gnd)
 Ignoring empty pin current: Ix(u7:nout)
-Total elapsed time: 5.736 seconds.
+Total elapsed time: 22.285 seconds.
 
