@@ -1,5 +1,11 @@
-Circuit: * C:\Users\USUARIO\Downloads\Diseño\ProyectoGitHub\Proyecto\ProyectoLTSPICE\SimulacionComparador\SistemaComparador.asc
-
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\JEIFER\Documents\GitHub\ProyectoUcurrentUIS\ProyectoLTSPICE\SimulacionComparador\SistemaComparador.asc
+Start Time: Mon Oct  7 16:16:26 2024
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
 WARNING: Less than two connections to node u5:dp.  This node is used by a:u5:ddel.
 WARNING: Less than two connections to node nc_01.  This node is used by r:u5:out2:out.
 Instance "m:u4:45": Length shorter than recommended for a level 1 MOSFET.
@@ -34,164 +40,310 @@ Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
 Source Step = 33.3333%
 Source Step = 63.6364%
-Source Step = 73.1179%
-vernier = 0.000976562
-Source Step = 73.1357%
-Source Step = 73.1652%
-Source Step = 73.1948%
-Source Step = 73.2244%
-Source Step = 73.254%
-Source Step = 73.2836%
-Source Step = 73.3132%
-Source Step = 73.3428%
-Source Step = 73.3724%
+Source Step = 75.7605%
+Source Step = 75.7901%
+Source Step = 75.8197%
+Source Step = 75.8493%
+Source Step = 75.8789%
+Source Step = 75.9085%
 vernier = 0.00146484
-Source Step = 73.4064%
-Source Step = 73.4508%
-Source Step = 73.4952%
-Source Step = 73.5396%
-Source Step = 73.584%
+Source Step = 75.9499%
+Source Step = 75.9943%
+Source Step = 76.0387%
+Source Step = 76.0831%
+Source Step = 76.1275%
 vernier = 0.00219727
-Source Step = 73.6328%
-Source Step = 73.6994%
-Source Step = 73.766%
-Source Step = 73.8326%
-Source Step = 73.8991%
-Source Step = 73.9657%
-Source Step = 74.0323%
-Source Step = 74.0989%
-Source Step = 74.1655%
+Source Step = 76.1874%
+Source Step = 76.254%
+Source Step = 76.3206%
+Source Step = 76.3872%
+Source Step = 76.4537%
 vernier = 0.0032959
-Source Step = 74.2354%
-Source Step = 74.3353%
-Source Step = 74.4351%
-Source Step = 74.535%
-Source Step = 74.6349%
-Source Step = 74.7348%
+Source Step = 76.5403%
+Source Step = 76.6402%
+Source Step = 76.7401%
+Source Step = 76.8399%
+Source Step = 76.9398%
 vernier = 0.00494385
-Source Step = 74.8846%
-Source Step = 75.0344%
-Source Step = 75.1842%
-Source Step = 75.334%
-Source Step = 75.4838%
+Source Step = 77.0647%
+Source Step = 77.2145%
+Source Step = 77.3643%
+Source Step = 77.5141%
+Source Step = 77.6639%
 vernier = 0.00741577
-Source Step = 75.7011%
-Source Step = 75.9258%
-Source Step = 76.1505%
-Source Step = 76.3752%
-Source Step = 76.6%
+Source Step = 77.8437%
+Source Step = 78.0684%
+Source Step = 78.2931%
+Source Step = 78.5178%
+Source Step = 78.7426%
 vernier = 0.0111237
-Source Step = 76.9146%
-Source Step = 77.2516%
-Source Step = 77.5887%
-Source Step = 77.9258%
-Source Step = 78.2629%
+Source Step = 79.001%
+Source Step = 79.3381%
+Source Step = 79.6752%
+Source Step = 80.0122%
+Source Step = 80.3493%
 vernier = 0.0166855
-Source Step = 78.7179%
-Source Step = 79.2236%
-Source Step = 79.5048%
-Source Step = 79.5364%
-Source Step = 79.568%
-Source Step = 79.5996%
-Source Step = 79.6312%
-Source Step = 79.6628%
-vernier = 0.00156426
-Source Step = 79.7102%
-Source Step = 79.7576%
-Source Step = 79.805%
-Source Step = 79.8524%
-Source Step = 79.8998%
-vernier = 0.0023464
-Source Step = 79.9686%
-Source Step = 80.0397%
-Source Step = 80.1108%
-Source Step = 80.1819%
-Source Step = 80.253%
-vernier = 0.00351959
-Source Step = 80.3525%
-Source Step = 80.4592%
-Source Step = 80.5658%
-Source Step = 80.6725%
-Source Step = 80.7791%
-vernier = 0.00527939
-Source Step = 80.9231%
-Source Step = 81.0831%
-Source Step = 81.2431%
-Source Step = 81.4031%
-Source Step = 81.563%
-vernier = 0.00791909
-Source Step = 81.771%
-Source Step = 82.011%
-Source Step = 82.251%
-Source Step = 82.4909%
-Source Step = 82.7309%
-vernier = 0.0118786
-Source Step = 83.0309%
-Source Step = 83.3908%
-Source Step = 83.7508%
-Source Step = 84.1108%
-Source Step = 84.4707%
-vernier = 0.0178179
-Source Step = 84.9027%
-Source Step = 85.4426%
-Source Step = 85.9825%
-Source Step = 86.5225%
-Source Step = 87.0624%
-vernier = 0.0267269
-Source Step = 87.6833%
-Source Step = 88.4932%
-Source Step = 89.3032%
-Source Step = 90.1131%
-Source Step = 90.6091%
-Source Step = 90.6597%
-Source Step = 90.7104%
-Source Step = 90.761%
-Source Step = 90.8116%
-Source Step = 90.8622%
-vernier = 0.00250565
-Source Step = 90.9382%
-Source Step = 91.0141%
-Source Step = 91.09%
-Source Step = 91.1659%
-Source Step = 91.2419%
-vernier = 0.00375847
-Source Step = 91.352%
-Source Step = 91.4659%
-Source Step = 91.5798%
-Source Step = 91.6936%
-Source Step = 91.8075%
-vernier = 0.00563771
-Source Step = 91.967%
-Source Step = 92.1378%
-Source Step = 92.3087%
-Source Step = 92.4795%
-Source Step = 92.6503%
-vernier = 0.00845657
-Source Step = 92.881%
-Source Step = 93.1372%
-Source Step = 93.3935%
-Source Step = 93.6498%
-Source Step = 93.906%
-vernier = 0.0126848
-Source Step = 94.2392%
-Source Step = 94.6235%
-Source Step = 95.0079%
-Source Step = 95.3923%
-Source Step = 95.7767%
-vernier = 0.0190273
-Source Step = 96.2572%
-Source Step = 96.8338%
-Source Step = 97.4104%
-Source Step = 97.987%
-Source Step = 98.5635%
-vernier = 0.0285409
-Source Step = 99.2554%
+Source Step = 80.7201%
+Source Step = 81.2257%
+Source Step = 81.7313%
+Source Step = 82.237%
+Source Step = 82.7426%
+vernier = 0.0250282
+Source Step = 83.2735%
+Source Step = 84.0319%
+Source Step = 84.7904%
+Source Step = 85.5488%
+Source Step = 86.3072%
+Source Step = 87.0656%
+vernier = 0.0375423
+Source Step = 88.2033%
+Source Step = 89.3409%
+Source Step = 90.4786%
+Source Step = 91.6162%
+Source Step = 92.7539%
+vernier = 0.0563135
+Source Step = 94.4035%
+Source Step = 96.1099%
+Source Step = 97.8164%
+Source Step = 99.5229%
+Source Step = 99.5575%
+Source Step = 99.5842%
+Source Step = 99.6109%
+Source Step = 99.6375%
+Source Step = 99.6642%
+Source Step = 99.6909%
+Source Step = 99.7175%
+Source Step = 99.7442%
+Source Step = 99.7708%
+Source Step = 99.7975%
+Source Step = 99.8242%
+Source Step = 99.8508%
+Source Step = 99.8775%
+Source Step = 99.9042%
+Source Step = 99.9308%
+Source Step = 99.9575%
+Source Step = 99.9842%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
 Source stepping succeeded in finding the operating point.
 
 Ignoring empty pin current: Ix(u5:vc+)
 Ignoring empty pin current: Ix(u5:vc-)
 Ignoring empty pin current: Ix(u5:vout+)
 Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u6:vc+)
+Ignoring empty pin current: Ix(u6:vc-)
+Ignoring empty pin current: Ix(u6:vout+)
+Ignoring empty pin current: Ix(u6:vout-)
 Ignoring empty pin current: Ix(u3:vc+)
 Ignoring empty pin current: Ix(u3:vc-)
 Ignoring empty pin current: Ix(u3:vout+)
@@ -215,6 +367,10 @@ Ignoring empty pin current: Ix(u5:vc+)
 Ignoring empty pin current: Ix(u5:vc-)
 Ignoring empty pin current: Ix(u5:vout+)
 Ignoring empty pin current: Ix(u5:vout-)
+Ignoring empty pin current: Ix(u6:vc+)
+Ignoring empty pin current: Ix(u6:vc-)
+Ignoring empty pin current: Ix(u6:vout+)
+Ignoring empty pin current: Ix(u6:vout-)
 Ignoring empty pin current: Ix(u3:vc+)
 Ignoring empty pin current: Ix(u3:vc-)
 Ignoring empty pin current: Ix(u3:vout+)
@@ -234,25 +390,9 @@ Ignoring empty pin current: Ix(u7:out)
 Ignoring empty pin current: Ix(u7:vcc)
 Ignoring empty pin current: Ix(u7:gnd)
 Ignoring empty pin current: Ix(u7:nout)
-Heightened Def Con from 0.00600098 ++++to 0.00600098
-Heightened Def Con from 0.00600098 +++to 0.00600098
-Heightened Def Con from 0.00600098 to 0.00600098
-
-Date: Mon Oct  7 15:15:27 2024
-Total elapsed time: 7.138 seconds.
-
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 28894
-traniter = 21150
-tranpoints = 6219
-accept = 4947
-rejected = 1282
-matrix size = 370
-fillins = 769
-solver = Normal
-Avg thread counts: 1.0/1.0/1.0/1.0
-Matrix Compiler1: 42.46 KB object code size  16.3/7.0/[3.6]
-Matrix Compiler2: 40.95 KB object code size  7.8/8.4/[3.8]
+Heightened Def Con from 8.8928e-07 to 8.89281e-07
+Heightened Def Con from 0.000101119 to 0.000101119
+Heightened Def Con from 0.0747718 ++++to 0.0747718
+Heightened Def Con from 0.0747718 to 0.0747718
+Total elapsed time: 83.253 seconds.
 

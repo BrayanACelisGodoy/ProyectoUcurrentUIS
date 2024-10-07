@@ -1,4 +1,4 @@
-* C:\Users\USUARIO\Downloads\Diseño\ProyectoGitHub\Proyecto\ProyectoLTSPICE\SimulacionComparador\SistemaComparador.asc
+* C:\Users\JEIFER\Documents\GitHub\ProyectoUcurrentUIS\ProyectoLTSPICE\SimulacionComparador\SistemaComparador.asc
 XU1 N002 N004 V+ V- N003 V+ MAX4239
 XU2 N003 N005 V+ V- Vref V+ MAX4239
 R1 Vout N005 9k
@@ -11,25 +11,68 @@ R6 Vt N002 270
 V2 0 V- 3
 R§mA Vt N001 10m
 R§uA Vt 0 10
-XU5 P001 N007 Vsuperior Reset Vset NC_01 VCC 0 74HC74 VCC=3 SPEED=1.0 TRIPDT=1e-9
-V4 N007 0 PULSE(0 3 0 1n 1n 1m 2m)
-V5 N006 0 2.6
-V6 N008 0 2m
+XU5 P001 N008 N007 Reset Vset NC_01 VCC 0 74HC74 VCC=3 SPEED=1.0 TRIPDT=1e-9
+V4 N008 0 PULSE(0 3 0 1n 1n 0.1m 0.2m)
+V5 N006 0 2.99
+V6 N009 0 2.994m
 XU4 Vref N006 V+ 0 Vsuperior 0 TLV3501
-XU3 N008 Vref V+ 0 Vinferior 0 TLV3501
+XU3 N009 Vref V+ 0 Vinferior 0 TLV3501
 M1 N001 Vset 0 0 NMOS
 M2 N001 Vset 0 0 NMOS
 M3 N001 Vset 0 0 NMOS
 XU7 Vinferior Vset Reset NAND_2
-I3 0 Vt 30m
+I3 0 Vt PULSE(0 500m 0 100m 1n 1m 20s)
 V3 P001 0 3
+XU6 Vset Vsuperior N007 OR_2
+M4 N001 Vset 0 0 NMOS
+M5 N001 Vset 0 0 NMOS
+M6 N001 Vset 0 0 NMOS
+M7 N001 Vset 0 0 NMOS
+M8 N001 Vset 0 0 NMOS
+M9 N001 Vset 0 0 NMOS
+M10 N001 Vset 0 0 NMOS
+M11 N001 Vset 0 0 NMOS
+M12 N001 Vset 0 0 NMOS
+M13 N001 Vset 0 0 NMOS
+M14 N001 Vset 0 0 NMOS
+M15 N001 Vset 0 0 NMOS
+M16 N001 Vset 0 0 NMOS
+M17 N001 Vset 0 0 NMOS
+M18 N001 Vset 0 0 NMOS
+M19 N001 Vset 0 0 NMOS
+M20 N001 Vset 0 0 NMOS
+M21 N001 Vset 0 0 NMOS
+M22 N001 Vset 0 0 NMOS
+M23 N001 Vset 0 0 NMOS
+M24 N001 Vset 0 0 NMOS
+M25 N001 Vset 0 0 NMOS
+M26 N001 Vset 0 0 NMOS
+M27 N001 Vset 0 0 NMOS
+M28 N001 Vset 0 0 NMOS
+M29 N001 Vset 0 0 NMOS
+M30 N001 Vset 0 0 NMOS
+M31 N001 Vset 0 0 NMOS
+M32 N001 Vset 0 0 NMOS
+M33 N001 Vset 0 0 NMOS
+M34 N001 Vset 0 0 NMOS
+M35 N001 Vset 0 0 NMOS
+M36 N001 Vset 0 0 NMOS
+M37 N001 Vset 0 0 NMOS
+M38 N001 Vset 0 0 NMOS
+M39 N001 Vset 0 0 NMOS
+M40 N001 Vset 0 0 NMOS
+M41 N001 Vset 0 0 NMOS
+M42 N001 Vset 0 0 NMOS
+M43 N001 Vset 0 0 NMOS
+M44 N001 Vset 0 0 NMOS
+M45 N001 Vset 0 0 NMOS
 .model NMOS NMOS
 .model PMOS PMOS
-.lib C:\Users\USUARIO\AppData\Local\LTspice\lib\cmp\standard.mos
+.lib C:\Users\JEIFER\AppData\Local\LTspice\lib\cmp\standard.mos
 .param V=3.3 I=20m
 .param R={V/I}
 .model NMOS NMOS (Vto=1.2 Kp=500 Rd=0.1 Rs=0.05 Rg=1 Vds=40 Ron=0.001)
-.tran 10m
+.tran 100m
 .lib 74HC.lib
 .lib DigitalLogic.lib
 .lib MAX4239.lib
