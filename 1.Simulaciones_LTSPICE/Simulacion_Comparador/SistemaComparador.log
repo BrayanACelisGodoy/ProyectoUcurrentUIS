@@ -1,4 +1,4 @@
-Circuit: * C:\Users\USUARIO\Downloads\Diseño\ProyectoGitHub\Proyecto\ProyectoLTSPICE\Simulacion_Comparador\SistemaComparador.asc
+Circuit: * C:\Users\Dortiso\Downloads\Uis\Materias\Diseño\Proyecto\1.Simulaciones_LTSPICE\Simulacion_Comparador\SistemaComparador.asc
 
 WARNING: Less than two connections to node v-.  This node is used by v2.
 WARNING: Less than two connections to node u5:dp.  This node is used by a:u5:ddel.
@@ -89,29 +89,27 @@ Ignoring empty pin current: Ix(u7:out)
 Ignoring empty pin current: Ix(u7:vcc)
 Ignoring empty pin current: Ix(u7:gnd)
 Ignoring empty pin current: Ix(u7:nout)
-Heightened Def Con from 0.00997525 +++to 0.00997525
-Heightened Def Con from 0.00997525 +++to 0.00997525
-Heightened Def Con from 0.00997531 ++++to 0.00997531
-Heightened Def Con from 0.00997531 +to 0.00997531
+Heightened Def Con from 0.00997525 to 0.00997525
+Heightened Def Con from 0.00997525 to 0.00997525
 Heightened Def Con from 0.0193037 to 0.0193037
-Heightened Def Con from 0.0200032 ++to 0.0200032
+Heightened Def Con from 0.0200032 +++++to 0.0200032
 Heightened Def Con from 0.0200032 +to 0.0200032
 
-Date: Wed Oct  9 09:23:48 2024
-Total elapsed time: 2.586 seconds.
+Date: Thu Oct 10 11:41:48 2024
+Total elapsed time: 0.814 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 13299
-traniter = 12788
-tranpoints = 3466
-accept = 2742
-rejected = 745
+totiter = 11669
+traniter = 11158
+tranpoints = 3191
+accept = 2590
+rejected = 612
 matrix size = 370
 fillins = 320
 solver = Normal
-Avg thread counts: 1.0/1.1/1.0/1.0
-Matrix Compiler1: 28.32 KB object code size  11.2/6.2/[2.7]
-Matrix Compiler2: off  [7.9]/8.9/10.8
+Avg thread counts: 1.2/3.2/1.6/1.2
+Matrix Compiler1: 28.32 KB object code size  9.4/5.6/[1.6]
+Matrix Compiler2: 32.25 KB object code size  5.2/6.7/[2.0]
 
