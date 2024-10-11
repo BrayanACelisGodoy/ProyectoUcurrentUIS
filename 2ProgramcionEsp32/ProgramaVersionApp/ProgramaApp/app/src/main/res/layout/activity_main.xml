@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Mostrar la lectura de corriente -->
+    <TextView
+        android:id="@+id/current_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Corriente: 0.00 mA"
+        android:textSize="24sp" />
+
+    <!-- Botón para seleccionar el modo uA -->
+    <Button
+        android:id="@+id/button_uA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/button_uA"
+        android:textAllCaps="false" />
+
+    <!-- Botón para seleccionar el modo mA -->
+    <Button
+        android:id="@+id/button_mA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/button_mA"
+        android:textAllCaps="false" />
+
+    <!-- Botón para seleccionar el modo Auto -->
+    <Button
+        android:id="@+id/button_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_auto"
+        android:textAllCaps="false" />
+
+</LinearLayout>
