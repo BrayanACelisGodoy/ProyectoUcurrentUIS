@@ -5,7 +5,13 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/2ProgramcionEsp32/ProgramaVersionApp/ProgramaApp" />
-        <option name="gradleJvm" value="jbr-17" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/2ProgramcionEsp32/ProgramaVersionApp/ProgramaApp" />
+            <option value="$PROJECT_DIR$/2ProgramcionEsp32/ProgramaVersionApp/ProgramaApp/app" />
+          </set>
+        </option>
         <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
