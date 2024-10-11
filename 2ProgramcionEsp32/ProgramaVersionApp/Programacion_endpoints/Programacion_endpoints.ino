@@ -73,6 +73,19 @@ void handleData() {
 
   // Enviar los datos en formato JSON
   server.send(200, "application/json", jsonData);
+  void enterLightSleep() {
+  Serial.println("Entrando en Light Sleep...");
+
+  // Configurar el tiempo de sueño (por ejemplo, 10 segundos)
+  esp_sleep_enable_timer_wakeup(10 * 1000000);  // 10 segundos en microsegundos
+
+  Serial.flush();  // Limpiar el buffer serial
+  esp_light_sleep_start();  // Entrar en light sleep
+
+  wakeup_count++;  // Contador de veces que ha despertado
+  Serial.println("Despertado del Light Sleep");
+  }
+ enterLightSleep();
 }
 
 void setup() {

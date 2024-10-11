@@ -93,5 +93,9 @@ void setup() {
 }
 
 void loop() {
-  server.handleClient();
+  server.handleClient();}
+   if (WiFi.status() == WL_CONNECTED) {
+    esp_sleep_enable_timer_wakeup(5000000);  // Configurar para despertar cada 5 segundos
+    esp_light_sleep_start();                 // Entrar en light sleep
+  }
 }
