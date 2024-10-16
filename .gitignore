@@ -557,9 +557,6 @@
 2Programcion_Visualizador/ProgramaVersionApp/ProgramaApp/gradlew.bat
 2Programcion_Visualizador/ProgramaVersionApp/ProgramaApp/local.properties
 2Programcion_Visualizador/ProgramaVersionApp/ProgramaApp/settings.gradle
-2Programcion_Visualizador/ProgramaVersionApp/Programacion_endpoints_Esp32/Programacion_endpoints_Esp32.ino
-2Programcion_Visualizador/ProgramaVersionWeb/ProgramaPaginaWeb_2_Esp32/ProgramaPaginaWeb_2/ProgramaPaginaWeb_2.ino
-2ProgramcionEsp32/ProgramaVersionApp/App.apk
 2ProgramcionEsp32/ProgramaVersionApp/ProgramaApp/.idea/.name
 2ProgramcionEsp32/ProgramaVersionApp/ProgramaApp/.idea/gradle.xml
 2ProgramcionEsp32/ProgramaVersionApp/ProgramaApp/.idea/migrations.xml
@@ -602,5 +599,4 @@
 2ProgramcionEsp32/ProgramaVersionApp/ProgramaApp/settings.gradle
 2ProgramcionEsp32/ProgramaVersionApp/Programacion_endpoints_Esp32/Programacion_endpoints.ino
 2ProgramcionEsp32/ProgramaVersionWeb/ProgramaPaginaWeb_2/ProgramaPaginaWeb_2/ProgramaPaginaWeb_2.ino
-4.Informe/.~lock.Informe_uCurrent.odt\#
-4.Informe/Informe_uCurrent.pdf
+
