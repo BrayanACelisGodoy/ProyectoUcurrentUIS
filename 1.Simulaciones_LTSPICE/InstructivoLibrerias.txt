@@ -1,0 +1,38 @@
+Instrucciones para agregar librerías a LTspice
+
+El archivo Lib_Ltspice.zip contiene varias librerías creadas y recopiladas por Bordodynov. La información original, junto con una explicación detallada y los enlaces de descarga, se encuentra en el sitio web oficial: Bordodynov LTWiki. 
+A continuación, se presenta una versión simplificada de las instrucciones en español para facilitar su implementación:
+---------------------------------
+Pasos para agregar las librerías:
+---------------------------------
+
+1.Ubicar la carpeta de librerías de LTspice:	
+	Por defecto, la carpeta de librerías de LTspice se encuentra en la siguiente ruta en tu computadora:
+	C:\Users\<Usuario>\AppData\Local\LTspice\lib
+	Nota: Reemplaza <Usuario> con el nombre de tu usuario en Windows. Si no encuentras esta carpeta, puedes buscar "LTspice" en el Explorador de Archivos para localizar su directorio principal.
+
+2.Descomprimir el archivo Lib_Ltspice.zip:
+	Dentro de la carpeta lib mencionada, encontrarás tres subcarpetas principales:
+	-sym (símbolos)
+	-sub (subcircuitos)
+	-cmp (componentes)
+
+	Extrae el contenido de las carpetas equivalentes en el archivo .zip descargado y copia los elementos en las carpetas correspondientes dentro del directorio lib. 
+	Esto permitirá que LTspice reconozca las nuevas librerías y estén disponibles para su uso inmediato.
+
+3.Agregar un archivo específico de librería (.lib):
+	Si necesitas agregar un archivo de librería específico:
+	Copia el archivo .lib al directorio adecuado (generalmente en la carpeta sub).
+	Si deseas usar este archivo en un diseño o simulación, asegúrate de hacer referencia a él en tu archivo de simulación. Esto se logra incluyendo una línea como la siguiente en el archivo de texto asociado a tu circuito:
+	.lib <nombre_archivo>.lib
+
+	Por ejemplo, para un modelo llamado ejemplo_modelo.lib, incluirías:
+	.lib ejemplo_modelo.lib
+
+	Si ya existe un modelo con las mismas características en LTspice, puedes reemplazar el archivo existente o fusionar las configuraciones según sea necesario.
+
+
+Notas adicionales:
+Es importante verificar que los archivos estén correctamente ubicados en las subcarpetas correspondientes (sym, sub o cmp) para evitar errores en las simulaciones.
+Si tienes dudas sobre el uso de una librería específica o necesitas modificar parámetros, puedes consultar la documentación en el sitio oficial de Bordodynov o la ayuda de LTspice.
+Con estos pasos, tus librerías estarán listas para ser usadas en LTspice.
