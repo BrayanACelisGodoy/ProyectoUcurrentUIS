@@ -89,28 +89,29 @@ Ignoring empty pin current: Ix(u7:out)
 Ignoring empty pin current: Ix(u7:vcc)
 Ignoring empty pin current: Ix(u7:gnd)
 Ignoring empty pin current: Ix(u7:nout)
-Heightened Def Con from 0.00997525 ++++to 0.00997525
-Heightened Def Con from 0.00997525 ++++to 0.00997525
-Heightened Def Con from 0.00997525 +++to 0.00997525
+Heightened Def Con from 0.00997525 ++to 0.00997525
 Heightened Def Con from 0.00997525 to 0.00997525
+Heightened Def Con from 0.00997531 ++to 0.00997531
 Heightened Def Con from 0.00997531 +to 0.00997531
-Heightened Def Con from 0.0200035 to 0.0200035
+Heightened Def Con from 0.0181864 to 0.0181864
+Heightened Def Con from 0.0200035 ++++++to 0.0200035
+Heightened Def Con from 0.0200035 +to 0.0200035
 
-Date: Thu Nov 21 23:09:52 2024
-Total elapsed time: 1.007 seconds.
+Date: Thu Nov 28 16:00:33 2024
+Total elapsed time: 0.884 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 16171
-traniter = 15660
-tranpoints = 4123
-accept = 3226
-rejected = 915
+totiter = 14768
+traniter = 14257
+tranpoints = 3762
+accept = 2953
+rejected = 828
 matrix size = 364
 fillins = 296
 solver = Normal
-Avg thread counts: 4.9/4.0/4.0/1.2
-Matrix Compiler1: 26.89 KB object code size  6.9/4.0/[1.6]
-Matrix Compiler2: 31.25 KB object code size  5.8/6.8/[2.6]
+Avg thread counts: 3.0/3.2/1.4/1.2
+Matrix Compiler1: 26.89 KB object code size  7.3/3.8/[1.4]
+Matrix Compiler2: 31.25 KB object code size  5.8/6.4/[3.3]
 
